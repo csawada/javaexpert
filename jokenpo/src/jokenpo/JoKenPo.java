@@ -56,7 +56,7 @@ public class JoKenPo {
 		if (player == computer) {
 			System.out.println("A TIE");
 		} else {
-			if ((player == 1 && computer == 4) ||	// (P) Stone 	(C) Needle 
+			if  ((player == 1 && computer == 4) ||	// (P) Stone 	(C) Needle 
 				(player == 1 && computer == 3) ||	// (P) Stone 	(C) Scissors 
 				(player == 2 && computer == 1) ||	// (P) Paper 	(C) Stone 
 				(player == 3 && computer == 2) ||	// (P) Scissors (C) Paper
