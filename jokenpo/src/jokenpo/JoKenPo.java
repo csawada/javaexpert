@@ -60,8 +60,8 @@ public class JoKenPo {
 				(player == 1 && computer == 3) ||	// (P) Stone 	(C) Scissors 
 				(player == 2 && computer == 1) ||	// (P) Paper 	(C) Stone 
 				(player == 3 && computer == 2) ||	// (P) Scissors (C) Paper
-				(player == 3 && computer == 4) ||	// (P) Needle	(C) Paper 
-				(player == 4 && computer == 2)) 
+				(player == 3 && computer == 4) ||	// (P) Scissors	(C) Needle 
+				(player == 4 && computer == 2))		// (P) Needle 	(C) Paper
 			{
 				System.out.println("Player Won");
 			}else {
