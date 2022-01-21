@@ -5,16 +5,19 @@ import java.util.Scanner;
 public class Imc {
 
 	public static void main(String[] args) {
-		// Ler o teclado do Usuário
-		Scanner leitor = new Scanner(System.in);
+		
+		int weight;
+		double height , imc;
+		// Read User Keyboard
+		Scanner reader = new Scanner(System.in);
 
-		// Criando as variáveis para o cálculo
-		System.out.println("Digite seu peso:");
-		int pesoDoUsuario = leitor.nextInt();
-		System.out.println("Digite sua altura:");
-		double alturaDoUsuario = leitor.nextDouble();
-		double imc = pesoDoUsuario / (alturaDoUsuario * alturaDoUsuario);
-		leitor.close();
+		// Creating the variables for the calculation
+		System.out.println("Enter your weight/Digite seu peso:");
+		weight = reader.nextInt();
+		System.out.println("Enter your height/Digite sua altura:");
+		height = reader.nextDouble();
+		imc = weight / (height * height);
+		reader.close();
 		System.out.println("");
 		System.out.println(imc);
 
