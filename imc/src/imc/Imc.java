@@ -29,9 +29,9 @@ public class Imc {
         } else if (imc >= 30 && imc <= 34.9) {
             System.out.println("Grade I obesity/Obesidade Grau I");
         } else if (imc >= 35 && imc <= 39.9) {
-            System.out.println("Grade III obesity/Obesidade Grau III");
+            System.out.println("Grade II obesity/Obesidade Grau II");
         } else {
-        	System.out.println();
+        	System.out.println("Grade III obesity/Obesidade Grau III");
         }
             System.out.println("Your IMC is: "+imc);
 		
