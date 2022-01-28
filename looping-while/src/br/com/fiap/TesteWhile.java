@@ -13,9 +13,12 @@ public class TesteWhile {
 		System.out.println("Digite seu nome: ");
 		String nome = leitor.next();
 		
-		int contador = 0;
+		System.out.println("Quantidades de repetições?  ");
+		int repeticoes = leitor.nextInt();
 		
-		while (contador < 10) {
+		int contador = 1;
+		
+		while (contador <= repeticoes) {
 			System.out.println(contador + " - " + nome);
 			contador = contador + 1;
 		}
