@@ -9,9 +9,9 @@ public class TabuadaApp {
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner(System.in);
 		int multiplicador , multiplicando;
-		System.out.println();
+		System.out.println("=============");
 		System.out.println("TABUADA");
-		System.out.println();
+		System.out.println("=============");
 		
 		System.out.println("Qual o multiplicando?");
 		multiplicando = leitor.nextInt();
