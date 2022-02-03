@@ -11,7 +11,11 @@ public class Tabuada {
 			
 			System.out.println(multiplicando + "X" + cont + "=" + produto);
 			
-			cont = cont + 1 ;
+			//cont = cont + 1 ;
+	         //cont = cont +3;
+			cont +=3; // pega o que tem no cont acrescenta + 3
+			// cont = -- 
+			//cont++; // Acrescentar 1 a cada volta
 		}
 	}
 	
