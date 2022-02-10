@@ -12,9 +12,9 @@ public class ExecutarConta {
 
 		cc.extrato();
 
-		cc.deposito(Input.decimal("Valor do deposito:"));
-		cc.saque(Input.decimal("Valor de Saque:"));
-		cc.saque(Input.decimal("Valor de Saque:"));
+		System.out.println(cc.deposito(Input.decimal("Valor do deposito:")));
+		System.out.println(cc.saque(Input.decimal("Valor de Saque:")));
+		System.out.println(cc.saque(Input.decimal("Valor de Saque:")));
 
 	}
 
